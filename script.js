@@ -53,7 +53,7 @@ form.addEventListener("submit", function (x) {
     }
 
 
-    result.textContent = coin + " " +  String(valorFinal.toFixed(2));
+    result.textContent = "R$" + " " +  String(valorFinal.toFixed(2));
 
     footer.classList.remove("hide-footer");
     console.log(`Valor final: ${valorFinal}`)
